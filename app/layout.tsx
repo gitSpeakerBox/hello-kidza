@@ -9,10 +9,10 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Chaaya Club",
-  manifest: "/favicon_io/site.webmanifest",
+  title: "Kidza | The Baby Shop",
   description:
-    "Discover Chaaya Club, your destination for premium tea, specialty coffee, and delicious artisan baked goods. Experience the perfect blend of flavor and comfort.",
+    "Premium, Personalised & Affordable Baby, Toddler & Kids Essentials. India's Largest Online Store for high-quality Onesies, Bodysuits & Toys.",
+  manifest: "/favicon_io/site.webmanifest",
   icons: {
     icon: "favicon_io/android-chrome-192x192.png",
     apple: "favicon_io/apple-touch-icon.png",
