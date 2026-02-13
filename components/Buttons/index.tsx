@@ -22,7 +22,7 @@ const Buttons = ({ buttonsCollection }: Data) => {
               className="aspect-square sm:max-h-[30px] max-h-7 min-h-7 object-contain duration-300 "
             />
           </div>
-          <p className=" text-xs font-medium uppercase sm:text-sm max-w-[80px] leading-[110%] tracking-[-1%]">
+          <p className=" text-xs font-medium  sm:text-sm max-w-[80px] leading-[110%] tracking-[-1%]">
             {item.title}
           </p>
         </Link>

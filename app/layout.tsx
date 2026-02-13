@@ -1,9 +1,9 @@
 import type { Metadata, Viewport } from "next";
 import "@/styles/style";
-import { Poppins } from "next/font/google";
+import { Inter } from "next/font/google";
 
 
-const poppins = Poppins({
+const inter = Inter({
   subsets: ["latin"],
   weight: ["400", "500", "600"],
 });
@@ -30,7 +30,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`relative bg-white text-black z-0 ${poppins.className} object-cover`}
+      className={`relative bg-white text-black z-0 ${inter.className} object-cover`}
     >
       <body className="relative z-0  bg-white text-black">
         {children}

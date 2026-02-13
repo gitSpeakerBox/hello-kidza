@@ -2,8 +2,6 @@ import Buttons from "@/components/Buttons";
 import Cards from "@/components/Cards";
 import HeroSection from "@/components/HeroSection";
 import { getAuthorBySlug } from "@/sanity/data";
-import Image from "next/image";
-import bottomIcon from "@/assets/images/bottom icons.svg";
 
 const page = async () => {
   const data = await getAuthorBySlug("home");
@@ -15,7 +13,7 @@ const page = async () => {
       <Buttons {...data.result} />
       <Cards {...data.result} />
     </section>
-    <Image className="object-contain mx-auto max-h-[34px] lg:max-h-[75.87px] mb-5" src={bottomIcon} alt=""/>
+    {/* <Image className="object-contain mx-auto max-h-[34px] lg:max-h-[75.87px] mb-5" src={bottomIcon} alt=""/> */}
     </>
   );
 };
